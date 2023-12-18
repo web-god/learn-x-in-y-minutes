@@ -8,7 +8,7 @@ This guide is ideal for beginners and those looking for a quick refresher on dev
 
 ## Table of Contents
 
-- ![HTML Logo](https://icons8.com/icon/20909/html-5) [HTML (Hypertext Markup Language)](html.md)
+- ![HTML Logo](html.png) [HTML (Hypertext Markup Language)](html.md)
 - ![CSS Logo](css_logo.png) [CSS (Cascading Style Sheets)](css.md)
 - ![JavaScript Logo](js_logo.png) [JavaScript](javascript.md)
 
