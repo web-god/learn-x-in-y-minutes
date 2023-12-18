@@ -8,55 +8,9 @@ This guide is ideal for beginners and those looking for a quick refresher on dev
 
 ## Table of Contents
 
-### HTML (Hypertext Markup Language)
-
-- **Introduction**
-  - Understanding HTML Structure
-  - HTML Tags and Elements
-  - Common Document Structure
-  
-- **Text Formatting**
-  - Headings and Paragraphs
-  - Text Styling (Bold, Italic, Underline)
-  - Lists (Ordered and Unordered)
-
-- **Links and Images**
-  - Creating Hyperlinks
-  - Embedding Images
-  - Anchor Tags and Navigation
-
-### CSS (Cascading Style Sheets)
-
-- **Introduction**
-  - Basic Styling Concepts
-  - Selectors and Declarations
-  - CSS Box Model
-  
-- **Layout and Positioning**
-  - Flexbox and Grid Systems
-  - Positioning Elements
-  - Responsive Design
-
-- **Advanced Styling**
-  - Transitions and Animations
-  - Custom Fonts and Icons
-  - CSS Variables
-
-### JavaScript
-
-- **Introduction**
-  - Variables and Data Types
-  - Control Flow (if statements, loops)
-  - Functions and Scope
-
-- **DOM Manipulation**
-  - Selecting DOM Elements
-  - Modifying and Updating Elements
-  - Event Handling
-  
-- **Asynchronous JavaScript**
-  - AJAX and Fetch API
-  - Promises and Async/Await
+- [HTML (Hypertext Markup Language)](html.md)
+- [CSS (Cascading Style Sheets)](css.md)
+- [JavaScript](javascript.md)
 
 ## Getting Started
 
