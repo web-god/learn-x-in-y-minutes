@@ -9,9 +9,6 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
   - HTML Tags and Elements
   - Common Document Structure
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
 
 ## Getting Started
 
