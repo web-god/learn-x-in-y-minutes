@@ -9,8 +9,7 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
   - HTML Tags and Elements
   - Common Document Structure
 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+
 
 ## Getting Started
 
