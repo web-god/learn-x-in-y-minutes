@@ -8,9 +8,9 @@ This guide is ideal for beginners and those looking for a quick refresher on dev
 
 ## Table of Contents
 
-- ![HTML Logo](https://github.com/zumrudu-anka/zumrudu-anka/raw/master/images/html5.svg) [HTML (Hypertext Markup Language)](html.md)
-- ![CSS Logo](https://github.com/zumrudu-anka/zumrudu-anka/raw/master/images/css.svg) [CSS (Cascading Style Sheets)](css.md)
-- ![JavaScript Logo](https://github.com/zumrudu-anka/zumrudu-anka/raw/master/images/javascript.svg) [JavaScript](javascript.md)
+- [HTML (Hypertext Markup Language)](html.md)
+- [CSS (Cascading Style Sheets)](css.md)
+- [JavaScript](javascript.md)
 
 ## Getting Started
 
