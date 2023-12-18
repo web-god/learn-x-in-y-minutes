@@ -9,7 +9,7 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
   - HTML Tags and Elements
   - Common Document Structure
 
-
+The background color is `#ffffff` for light mode and `#ff00ff` for dark mode.
 
 ## Getting Started
 
