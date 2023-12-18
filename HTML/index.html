@@ -142,40 +142,88 @@
       <img src="img.jpg" alt="picture" />
     </picture>
 
-    
-
     <!-- 19.Tables -->
     <table border="1">
-        <tr>
-            <th>Col 1</th>
-            <th>Col 2</th>
-            <th>Col 3</th>
-           
-        </tr>
+      <tr>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+      </tr>
 
-        <tr>
-            <td>Cell 1 </td>
-            <td>Cell 2 </td>
-            <td>Cell 3 </td>
-            
-        </tr>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+      </tr>
 
-        <tr>
-            <td>Cell 4</td>
-            <td>Cell 5</td>
-            <td>Cell 6 </td>
-           
-        </tr>
+      <tr>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+        <td>Cell 6</td>
+      </tr>
 
-        <tr>
-            <td>Cell 7</td>
-            <td>Cell 8</td>
-            <td>Cell 9</td>
-           
-        </tr>
+      <tr>
+        <td>Cell 7</td>
+        <td>Cell 8</td>
+        <td>Cell 9</td>
+      </tr>
     </table>
 
     <!-- Table Colspan & Rowspan -->
+    <table border="1">
+      <tr>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+      </tr>
+
+      <tr>
+        <td colspan="2">Col Span</td>
+        <td>Cell 2</td>
+      </tr>
+
+      <tr>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+        <td rowspan="2">Row Span</td>
+      </tr>
+
+      <tr>
+        <td>Cell 7</td>
+        <td>Cell 8</td>
+      </tr>
+    </table>
+
+    <!-- Colgroup -->
+    <table border="1">
+      <tr>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+      </tr>
+
+      <tr>
+        <colgroup>
+          <col span="2" style="background-color: lightblue;" />
+        </colgroup>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+      </tr>
+
+      <tr>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+        <td>Cell 6</td>
+      </tr>
+
+      <tr>
+        <td>Cell 7</td>
+        <td>Cell 8</td>
+        <td>Cell 9</td>
+      </tr>
+    </table>
+
     <table border="1">
         <tr>
           <th>Col 1</th>
@@ -184,20 +232,59 @@
         </tr>
   
         <tr>
-          <td colspan="2">Col Span</td>
+          <colgroup>
+            <col span="1">
+            <col span="2" style="background-color: lightgreen;" />
+          </colgroup>
+          <td>Cell 1</td>
           <td>Cell 2</td>
+          <td>Cell 3</td>
         </tr>
   
         <tr>
           <td>Cell 4</td>
           <td>Cell 5</td>
-          <td rowspan="2">Row Span</td>
+          <td>Cell 6</td>
         </tr>
   
         <tr>
           <td>Cell 7</td>
           <td>Cell 8</td>
+          <td>Cell 9</td>
         </tr>
       </table>
+
+      <!-- 20.Lists -->
+      <!-- Unordered Lists -->
+      <ul style="list-style-type: square;">
+        <li>Fruits</li>
+        <li>Vegetable</li>
+        <li>Non-Veg</li>
+      </ul>
+
+      <ul style="list-style-type:disc;">
+        <li>Fruits</li>
+        <ul>
+            <li>Apple</li>
+            <li>Guava</li>
+            <li>Mango</li>
+        </ul>
+        <li>Vegetable</li>
+        <li>Non-Veg</li>
+      </ul>
+
+      <ul style="list-style-type: none;">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+      <!-- Ordered Lists -->
+      <ol>
+        <li>Fruits</li>
+        <li>Vegetable</li>
+        <li>Non-Veg</li>
+      </ol>
   </body>
 </html>

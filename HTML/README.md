@@ -42,10 +42,15 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
       - Image Map
       - Picture Element
 17. **Favicon**
-18. **Title**
+18. **Title(Head Tag)**
 19. **Tables** 
       - Tables
       - Colspan & Rowspan
+      - -Colgroup
+20. **Lists**
+      - Unordered Lists(ul)
+      - Ordered Lists(ol)
+      - Description Lists(dl)
 
 ---
 ## Getting Started
