@@ -46,7 +46,7 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
 19. **Tables** 
       - Tables
       - Colspan & Rowspan
-      - -Colgroup
+      - Colgroup
 20. **Lists**
       - Unordered Lists(ul)
       - Ordered Lists(ol)
