@@ -2,15 +2,15 @@
 
 Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tutorial is designed to get you started with HTML efficiently.
 
+---
 ## Topic: HTML (Hypertext Markup Language)
+
 
 - **Introduction**
   - Understanding HTML Structure
   - HTML Tags and Elements
   - Common Document Structure
-
-The background color is `#ffffff` for light mode and `#ff00ff` for dark mode.
-
+---
 ## Getting Started
 
 To begin learning HTML, navigate to the relevant section and follow the examples and explanations provided. Code snippets are included to help reinforce your understanding.
