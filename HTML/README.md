@@ -86,7 +86,7 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
       - semantic elements
       - old semantic elements
       - non semantic elements
-      - new semantic elements
+      - new semantic elements(Html 5)
         - header
         - nav
         - section
@@ -137,30 +137,31 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
         - radio button
         - checkbox
         - button
-        - color
-        - date
-        - email
+        - color(Html 5)
+        - date(Html 5)
+        - email(Html 5)
         - image
         - file
         - hidden
         - month
-        - number
+        - number(Html 5)
         - range
         - search
-        - tel
+        - tel(Html 5)
         - time
-        - url
+        - url(Html 5)
         - week
       - Input Attributes
         - value
         - readonly
         - disabled
         - size
+        - min & max(Html 5)
         - maxlength
         - multiple
-        - pattern
+        - pattern(Html 5)
         - placeholder
-        - required
+        - required(Html 5)
         - step
         - autofocus
         - height & width
@@ -174,8 +175,8 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
         - formtarget
         - formnovalidate 
 37. **Multimedia**
-    - Video
-    - Audio
+    - Video(Html 5)
+    - Audio(Html 5)
     - Plug-ins
       - Embed
       - Object
