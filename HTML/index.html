@@ -8,6 +8,25 @@
 
     <!-- 18.Title -->
     <title>Learn Html in y minutes</title>
+
+    <!-- 26.Head tag -->
+    <style></style>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <meta charset="UTF-8" />
+
+    <meta name="description" content="This is page description" />
+
+    <meta name="keywords" content="Html,Css,Javascript" />
+
+    <meta name="author" content="webgod" />
+
+    <!-- <meta http-equiv="refresh" content="5"> -->
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <script></script>
   </head>
 
   <body>
@@ -204,7 +223,7 @@
 
       <tr>
         <colgroup>
-          <col span="2" style="background-color: lightblue;" />
+          <col span="2" style="background-color: lightblue" />
         </colgroup>
         <td>Cell 1</td>
         <td>Cell 2</td>
@@ -225,66 +244,439 @@
     </table>
 
     <table border="1">
-        <tr>
-          <th>Col 1</th>
-          <th>Col 2</th>
-          <th>Col 3</th>
-        </tr>
-  
-        <tr>
-          <colgroup>
-            <col span="1">
-            <col span="2" style="background-color: lightgreen;" />
-          </colgroup>
-          <td>Cell 1</td>
-          <td>Cell 2</td>
-          <td>Cell 3</td>
-        </tr>
-  
-        <tr>
-          <td>Cell 4</td>
-          <td>Cell 5</td>
-          <td>Cell 6</td>
-        </tr>
-  
-        <tr>
-          <td>Cell 7</td>
-          <td>Cell 8</td>
-          <td>Cell 9</td>
-        </tr>
-      </table>
+      <tr>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+      </tr>
 
-      <!-- 20.Lists -->
-      <!-- Unordered Lists -->
-      <ul style="list-style-type: square;">
-        <li>Fruits</li>
-        <li>Vegetable</li>
-        <li>Non-Veg</li>
+      <tr>
+        <colgroup>
+          <col span="1" />
+          <col span="2" style="background-color: lightgreen" />
+        </colgroup>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+      </tr>
+
+      <tr>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+        <td>Cell 6</td>
+      </tr>
+
+      <tr>
+        <td>Cell 7</td>
+        <td>Cell 8</td>
+        <td>Cell 9</td>
+      </tr>
+    </table>
+
+    <!-- 20.Lists -->
+    <!-- Unordered Lists -->
+    <ul style="list-style-type: square">
+      <li>Fruits</li>
+      <li>Vegetable</li>
+      <li>Non-Veg</li>
+    </ul>
+
+    <ul style="list-style-type: disc">
+      <li>Fruits</li>
+      <ul>
+        <li>Apple</li>
+        <li>Guava</li>
+        <li>Mango</li>
       </ul>
+      <li>Vegetable</li>
+      <li>Non-Veg</li>
+    </ul>
 
-      <ul style="list-style-type:disc;">
-        <li>Fruits</li>
-        <ul>
-            <li>Apple</li>
-            <li>Guava</li>
-            <li>Mango</li>
-        </ul>
-        <li>Vegetable</li>
-        <li>Non-Veg</li>
-      </ul>
+    <ul style="list-style-type: none">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
 
-      <ul style="list-style-type: none;">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
+    <!-- Ordered Lists -->
+    <ol type="i" start="5">
+      <li>Fruits</li>
+      <li>Vegetable</li>
+      <li>Non-Veg</li>
+    </ol>
 
-      <!-- Ordered Lists -->
-      <ol>
-        <li>Fruits</li>
-        <li>Vegetable</li>
-        <li>Non-Veg</li>
-      </ol>
+    <!-- discription list -->
+    <dl>
+      <dt>Mango</dt>
+      <dd>- It is yellow and sweet</dd>
+      <dt>Orange</dt>
+      <dd>- It is orange and sour</dd>
+    </dl>
+
+    <!-- 21.Block & Inline -->
+    <div>Block Element</div>
+    <div>Block Element</div>
+
+    <span>Inline Element</span>
+    <span>Inline Element</span>
+
+    <!-- 22.Id -->
+    <div id="container"></div>
+
+    <!-- 23.Classes -->
+    <div class="menu">Menu1</div>
+    <div class="menu">Menu2</div>
+
+    <!-- 24.Iframes -->
+    <iframe src="iframe.html" width="400px" height="300px"></iframe>
+
+    <a href="iframe.html" target="iframe2">Open in Iframe</a>
+
+    <iframe src="index.html" name="iframe2"></iframe>
+
+    <!-- 27.Layout  -->
+    <header></header>
+    <nav></nav>
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+
+    <!-- framework,float,flex,grid -->
+
+    <!-- 29.Code -->
+    <pre>
+      <code>
+        x=10
+        y=5
+        sum=x+y
+      </code>
+    </pre>
+
+    <p>Save the file by pressing <kbd>Ctrl+S</kbd></p>
+
+    <p>Message: <samp>File Not Found</samp></p>
+
+    <p>
+      The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where
+      <var>b</var> is the base, and <var>h</var> is the vertical height.
+    </p>
+
+    <!-- 30.Semantic Elements -->
+
+    <!-- Old Semantic Elements -->
+    <div id="header"></div>
+    <div id="nav"></div>
+
+    <!-- Non-Semantic Elements -->
+    <div></div>
+    <span></span>
+    <hr />
+    <br />
+    <b></b>
+    <i></i>
+
+    <!-- Semantic elements -->
+    <form></form>
+    <a></a>
+    <table></table>
+
+    <header></header>
+    <nav></nav>
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+    <main></main>
+
+    <figure>
+      <img src="figure.jpeg" alt="figure1" />
+      <figcaption>Figure 1 - Parts of a Plant</figcaption>
+    </figure>
+
+    <details>
+      <summary>What is HTML?</summary>
+      <p>
+        The HyperText Markup Language or HTML is the standard markup language
+        for documents designed to be displayed in a web browser.
+      </p>
+    </details>
+
+    <p>Time is <time datetime="2023-12-19 22:00">10 PM</time></p>
+
+    <!-- 31.Entities -->
+    &lt;html&gt; &copy; &nbsp;&nbsp;&nbsp; hello &#768;
+
+    <!-- 32.Symbols -->
+    &#8721; &sum;
+
+    <!-- 33.Emojis -->
+    &#128517;
+
+    <!-- 36.Forms -->
+
+    <!---------- Form Attributes -------->
+    <form
+      action=""
+      method="post"
+      enctype="multipart/form-data"
+      target="_blank"
+      autocomplete="on"
+      nonvalidate
+    ></form>
+
+    <!--------------- Form Elements------------- -->
+    <!-- input -->
+    <input type="text" />
+
+    <!-- label -->
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" />
+
+    <!-- select -->
+
+    <select size="2" multiple>
+      <option value="mango">Mango</option>
+      <option value="apple">Apple</option>
+      <option value="guava" selected>Guava</option>
+      <option value="grape">Grape</option>
+      <option value="orange">Orange</option>
+    </select>
+
+    <!-- textarea -->
+
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    <!-- button -->
+    <button type="button" onclick="alert('Hello World')">Click Me!</button>
+
+    <!-- fieldset & legend -->
+    <fieldset>
+      <legend>Full Name</legend>
+      First Name:<input type="text" /><br />
+      Last Name: <input type="text" />
+    </fieldset>
+
+    <!-- datalist -->
+    Fruits: <input type="text" list="fruits" />
+
+    <datalist id="fruits">
+      <option value="Mango"></option>
+      <option value="Apple"></option>
+      <option value="Guava"></option>
+      <option value="Grape"></option>
+    </datalist>
+
+    <!-- output -->
+
+    <form oninput="result.value=num1.value+num2.value">
+      Number 1 <input type="number" id="num1" /><br />
+      Number 2 <input type="number" id="num2" /><br />
+      Result: <output id="result">0</output>
+      <input type="submit" />
+    </form>
+
+    <!--------------Input Types ---------------->
+
+    <form>
+      <!-- text -->
+      Text: <input type="text" /><br />
+
+      <!-- password -->
+      Password: <input type="password" /><br />
+
+      <!-- submit -->
+      <input type="submit" value="Go" /><br />
+
+      <!-- reset -->
+      <input type="reset" value="Reset" /><br />
+
+      <!-- radio button -->
+      Gender: <br />
+      Male <input type="radio" name="" /> Female
+      <input type="radio" name="" /><br />
+
+      Gender: <br />
+      Male <input type="radio" name="gender" /> Female
+      <input type="radio" name="gender" checked /> <br />
+
+      <!-- checkbox -->
+      Languages Known: <br />
+      Html<input type="checkbox" /> Css <input type="checkbox" checked /> Js
+      <input type="checkbox" /><br />
+
+      <!-- button -->
+      button: <input type="button" value="Click Me" /><br />
+
+      <!-- color -->
+      Color:<input type="color" /><br />
+
+      <!-- date -->
+      Date:<input type="date" /> Date-local:<input
+        type="datetime-local"
+      /><br />
+
+      <!-- email -->
+      Email:<input type="email" /><br />
+
+      <!-- image -->
+      <input
+        type="image"
+        src="submit.png"
+        alt="submit"
+        width="100px"
+        height="100px"
+      /><br />
+
+      <!-- file -->
+      File: <input type="file" multiple /><br />
+
+      <!-- hidden -->
+      Hidden: <input type="hidden" id="userId" value="2234" /><br />
+
+      <!-- month -->
+      Month: <input type="month" /><br />
+
+      <!-- number -->
+      Number:<input type="number" /><br />
+
+      <!-- range -->
+      Range:<input type="range" min="50" max="100" /><br />
+
+      <!-- search -->
+      Search:<input type="search" /><br />
+
+      <!-- Tel -->
+      Tel: <input type="tel" pattern="\+91 [1-9][0-9]{9}" /><br />
+
+      <!-- time -->
+      Time: <input type="time" /><br />
+
+      <!-- url -->
+      url: <input type="url" /><br />
+
+      <!-- week -->
+      Week: <input type="week" /><br />
+
+      <!-- --------------Input Attributes ------------->
+      <!-- value -->
+      Value: <input type="text" value="webgod" /><br />
+
+      <!-- readonly -->
+      Readonly: <input type="text" readonly /><br />
+
+      <!-- disabled -->
+      Disabled: <input type="text" disabled /><br />
+
+      <!-- size -->
+      Size: <input type="text" size="8" /><br />
+
+      <!-- maxlength -->
+      Maxlength : <input type="text" maxlength="2" size="4" /><br />
+
+      <!-- multiple -->
+      Multiple: <input type="file" multiple /><br />
+
+      <!-- pattern-->
+      Pattern:
+      <input
+        type="text"
+        pattern="[A-Za-z]{3}"
+        title="Only Three letter nickname"
+      /><br />
+
+      <!-- placeholder -->
+      Placeholder: <input type="text" placeholder="Enter a Name" /><br />
+
+      <!-- required -->
+      Required: <input type="text" required /> <input type="submit" /><br />
+
+      <!-- step -->
+      Step: <input type="number" step="6" /><br />
+
+      <!-- autofocus -->
+      Autofocus: <input type="text" autofocus /><br />
+
+      <!-- height & width -->
+      height & width:
+      <input
+        type="image"
+        src="submit.png"
+        alt="submit"
+        width="100px"
+        height="100px"
+      /><br />
+
+      <!-- list -->
+      list: <input type="text" list="fruits" />
+
+      <datalist id="fruits">
+        <option value="Mango"></option>
+        <option value="Apple"></option>
+        <option value="Guava"></option>
+        <option value="Grape"></option></datalist
+      ><br />
+
+      <!--  autocomplete -->
+      Autocomplete: <input type="text" autocomplete="on" />
+    </form>
+    <br />
+
+    <!-- ------------Input Form Attributes ----------------->
+
+    <!-- form attribute -->
+    <form id="form1">Text 1: <input type="text" />br</form>
+
+    Text 2: <input type="text" form="form1" /><br>
+
+    <form>
+      <!-- formaction attribute -->
+      <input type="submit" formaction="" />
+      <input type="image" formaction="" /><br>
+
+      <!--formenctype attribute  -->
+      <input type="submit" formenctype="multipart/form-data" /><br>
+
+      <!-- formmethod attribute -->
+      <input type="submit" formmethod="post" /><br>
+
+      <!-- formtarget attribute -->
+      <input type="submit" formtarget="_blank" /><br>
+
+      <!-- formnovalidate attribute -->
+      Name: <input type="text" required>
+      <input type="submit" value="Submit" />
+      <input type="submit" formnovalidate="formnovalidate" value="No Validation" />
+      
+    </form>
+
+    <!-- 37.Multimedia -->
+
+    <!-- Video -->
+    <video width="500px" height="300px" controls autoplay muted >
+      <source src="video.mp4" type="video/mp4" >
+      Your browser does not support the video tag.
+    </video><br>
+
+    <!-- Audio -->
+    <audio controls autoplay muted>
+      <source src="music.mp3" type="audio/mp3">
+      Your browser does not support the Audio tag.
+    </audio><br>
+
+    <!-- Plug-ins -->
+    <embed src="sample.pdf" type="application/pdf"><br>
+    
+    <object data="sample.pdf" type="application/pdf"></object><br>
+    
+    <iframe src="sample.pdf"></iframe><br>
+
+    <!-- youtube -->
+
+    <iframe width="310" height="224" src="https://www.youtube.com/embed/EngW7tLk6R8"  title="Sample Videos / Dummy Videos For Demo Use" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <iframe width="310" height="224" src="https://www.youtube.com/embed/EngW7tLk6R8?controls=0&autoplay=1&mute=1"></iframe>
+
   </body>
 </html>

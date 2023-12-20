@@ -5,9 +5,7 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
 ---
 ## Topic: HTML (Hypertext Markup Language)
 
-
 1. **Introduction**
-  
 2. **Editors**
 3. **Doctype**
 4. **Elements**
@@ -51,6 +49,138 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
       - Unordered Lists(ul)
       - Ordered Lists(ol)
       - Description Lists(dl)
+21. **Block & Inline**
+      - Block
+      - Span
+      - Div
+      - Span
+22. **Id**
+23. **Classes**
+24. **Iframes**
+25. **File Paths**
+      - Relative
+      - Absolute
+26. **Head**
+      - title
+      - style
+      - link
+        - icon
+        - stylesheet
+      - meta
+        - charset
+        - description
+        - keywords
+        - author
+        - refresh
+        - viewport
+      - script
+27. **Layout**
+28. **Responsive**
+29. **Computer Code(code)**
+      - code
+      - kbd
+      - samp
+      - var
+      - pre
+30. **Semantic Elements**
+      - semantic elements
+      - old semantic elements
+      - non semantic elements
+      - new semantic elements
+        - header
+        - nav
+        - section
+        - article
+        - aside
+        - main
+        - footer
+        - figure
+        - details
+31. **Entities**
+32. **Symbols**
+33. **Emojis**
+34. **Charset**
+35. **URL**
+      - Domain
+      - Protocol
+      - Port
+      - Path
+      - http
+      - https
+      - ftp
+36. **Forms**
+      - Form
+      - Form Attributes
+        - Action
+        - Method
+          - Get
+          - Post
+        - Target
+        - Enctype
+        - Autocomplete
+        - Novalidate
+      - Form Elements
+        - input
+        - label
+        - select
+        - textarea
+        - button
+        - fieldset
+        - legend
+        - datalist
+        - output
+      - Input Types
+        - text
+        - password
+        - submit
+        - reset
+        - radio button
+        - checkbox
+        - button
+        - color
+        - date
+        - email
+        - image
+        - file
+        - hidden
+        - month
+        - number
+        - range
+        - search
+        - tel
+        - time
+        - url
+        - week
+      - Input Attributes
+        - value
+        - readonly
+        - disabled
+        - size
+        - maxlength
+        - multiple
+        - pattern
+        - placeholder
+        - required
+        - step
+        - autofocus
+        - height & width
+        - list
+        - autocomplete
+      - Input Form Attributes 
+        - form
+        - formaction
+        - formenctype
+        - formmethod 
+        - formtarget
+        - formnovalidate 
+37. **Multimedia**
+    - Video
+    - Audio
+    - Plug-ins
+      - Embed
+      - Object
+      - Iframe
+    - Youtube
 
 ---
 ## Getting Started
