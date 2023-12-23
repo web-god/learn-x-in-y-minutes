@@ -5,7 +5,35 @@ Welcome to the "Learn HTML5 in Y Minutes" guide! This quick and comprehensive tu
 ---
 ## Topic: HTML 5
 
-1. 
+1. **Introduction**
+2. **Graphics**
+    - SVG
+    - Canvas
+3. **MathML**
+4. **Html API**
+    - Geolocation
+      - getCurrentPosition
+      - watchPosition
+      - clearWatch
+    - Drag/Drop
+      - dragstart
+      - dragover
+      - drop
+    - Web Storage
+       - Local Storage
+         - setItem
+         - getItem
+         - removeItem
+      - Session Storage
+         - setItem
+         - getItem
+         - removeItem
+    - Web Workers
+       - start worker
+       - stop worker
+     - ~~SSE~~
+    - ~~Web Socket~~
+  
 
 ---
 ## Getting Started

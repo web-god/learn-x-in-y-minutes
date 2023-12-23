@@ -1,0 +1,17 @@
+#draggableElement {
+    width: 100px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+#dropTarget,#dropImageTarget{
+    width: 200px;
+    height: 100px;
+    border: 2px dashed #e74c3c;
+    text-align: center;
+    line-height: 100px;
+}
