@@ -1,6 +1,6 @@
 body {
   /* Background Attachement */
-  height: 1600px;
+  height:3000px;
 }
 
 /* 2.Syntax */
@@ -62,12 +62,14 @@ h3{
     text-align: center;
 } */
 
+/*
 h2,
 h3 {
-  /* color: pink;
+  color: pink;
   background-color: black;
-  text-align: center; */
+  text-align: center; 
 }
+*/
 
 /* 5.Comments */
 
@@ -137,124 +139,299 @@ h3 {
   border-style: solid;
 
   /* Border Color */
-  border-color: red; 
+  border-color: red;
 
   /* Border Sides */
   border-top-style: dotted;
 
   /* border-color:red blue;  
   border-color: red green blue; */
-  border-color:red green pink blue;
+  border-color: red green pink blue;
 
   /* border shorthand */
-  border:2px solid red;
+  border: 2px solid red;
 
   /* rounded borders */
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 /* 9.Margins */
 #margins {
-    width:500px;
-    height:300px;
-    border:2px solid black;
-    /* margin:40px; */
-    
-    
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+  /* margin:40px; */
 }
 
 #margins p {
-    width:50px;
-    border:2px solid red;
+  width: 50px;
+  border: 2px solid red;
 
-    /* margin-top:20px;
+  /* margin-top:20px;
     margin-right:30px;
     margin-bottom:10px;
     margin-left:40px; */
 
-    /* Margin - Shorthand */
-    margin:20px 30px 10px 40px;
+  /* Margin - Shorthand */
+  margin: 20px 30px 10px 40px;
 
-    /* margin:20px; */
+  /* margin:20px; */
 
-    /* auto value */
-    /* margin:auto; */
+  /* auto value */
+  /* margin:auto; */
 
-    /* Inherit value */
-    /* margin:inherit; */
+  /* Inherit value */
+  /* margin:inherit; */
 
-    /* initial Value*/
-    /* margin:initial; */
+  /* initial Value*/
+  /* margin:initial; */
 }
 
-
-#margins h2{
-    border:2px solid green;
-    margin: 0 0 50px 0;
+#margins h2 {
+  border: 2px solid green;
+  margin: 0 0 50px 0;
 }
 
 #margins h3 {
-    border:2px solid orange;
-    margin: 20px 0 0 0;
+  border: 2px solid orange;
+  margin: 20px 0 0 0;
 }
 
 /* 10. Padding */
 
 #padding {
-    border:2px solid black;
-    width: 400px;
-    height: 300px;
+  border: 2px solid black;
+  width: 400px;
+  height: 300px;
 }
-#padding p{
-    border:2px solid red;
-    /* padding: 20px; */
+#padding p {
+  border: 2px solid red;
+  /* padding: 20px; */
 
-    /* padding sides */
-    /* padding-left:30px; */
+  /* padding sides */
+  /* padding-left:30px; */
 
-    /* padding shorthand */
-    padding:30px 40px 20px 20px;
+  /* padding shorthand */
+  padding: 30px 40px 20px 20px;
 }
 
 div.pad1 {
-    width: 300px;
-    background-color: yellow;
-  }
-
+  width: 300px;
+  background-color: yellow;
+}
 
 div.pad2 {
+  width: 300px;
+  padding: 25px;
+  background-color: lightblue;
 
-    width: 300px;
-    padding: 25px;
-    background-color: lightblue;
-
-    /* box sizing */
-    /* box-sizing: border-box; */
-
+  /* box sizing */
+  /* box-sizing: border-box; */
 }
 
 /* 11.Height/Width */
-#hw1{
-    background-color: darkcyan;
-    height:300px;
-    /* width:300px; */
-    /* width: auto; */
-    /* width: 50%; */
-    /* width: initial; */
-    /* width: inherit; */
-
+#hw1 {
+  background-color: darkcyan;
+  height: 300px;
+  /* width:300px; */
+  /* width: auto; */
+  /* width: 50%; */
+  /* width: initial; */
+  /* width: inherit; */
 }
 
 /* max-width */
 .example-div {
-    height: 100px;
-    width: 500px; /* Without max-width */
-    background-color: lightblue;
-    margin-bottom: 20px;
-  }
+  height: 100px;
+  width: 500px; /* Without max-width */
+  background-color: lightblue;
+  margin-bottom: 20px;
+}
 
-  .example-div-max-width {
-    height: 100px;
-    max-width: 500px; /* With max-width */
-    background-color: lightcoral;
-  }
+.example-div-max-width {
+  height: 100px;
+  max-width: 500px; /* With max-width */
+  background-color: lightcoral;
+}
+
+/* 12.Box Model */
+#boxmodel {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+/* 13. Outline */
+#outline {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 5px solid green;
+
+  /* Outline Width */
+  outline-width: 5px;
+
+  /* Outline Color */
+  outline-color: red;
+
+  /* Outline Style */
+  outline-style: solid;
+
+  /* Outline Shorthand */
+  outline: 5px solid red;
+
+  /* Outline Offset */
+  /* outline-offset:20px; */
+}
+
+/* 14.Text */
+#text1 p {
+  /* Text Color */
+  color: rgb(35, 138, 86);
+  background-color: yellow;
+
+  /* Text Alignment */
+  text-align: center;
+
+  /* text-align-last:right; */
+  /* direction:rtl ;
+    unicode-bidi: bidi-override; */
+}
+/* vertical align */
+#vl-align {
+  background-color: rgb(175, 236, 240);
+  color: red;
+  padding: 20px;
+}
+
+#vl-align #img1 {
+  vertical-align: text-bottom;
+}
+
+#vl-align #img2 {
+  vertical-align: middle;
+}
+
+#vl-align #img3 {
+  vertical-align: text-top;
+}
+
+#vl-align #img4 {
+  vertical-align: baseline;
+}
+
+#vl-align #img5 {
+  vertical-align: super;
+}
+
+/* Text Decoration */
+
+#text2 {
+  /* text-decoration-line:underline; */
+  /* text-decoration-color: #f00; */
+  /* text-decoration-thickness:5px; */
+  /* text-decoration-style: dashed; */
+  /* shorthand */
+  text-decoration: underline red dashed 5px;
+}
+
+#link1 {
+  text-decoration: none;
+}
+
+/* Text Transformation */
+
+#text3 {
+  /* text-transform: lowercase; */
+  /* text-transform: uppercase; */
+  text-transform: capitalize;
+}
+
+/* Text Spacing */
+
+#text4 {
+  color: black;
+
+  text-indent: 40px;
+
+  letter-spacing: 2px;
+  /* letter-spacing:-2px; */
+
+  /* line-height:0.7; */
+
+  word-spacing: 10px;
+
+  /* white-space: nowrap; */
+  /* white-space: pre; */
+}
+
+/* Text Shadow */
+
+#text5 {
+  color: black;
+
+  /* text-shadow:2px 2px */
+
+  /* text-shadow: 2px 2px red; */
+
+  /* text-shadow: 2px 2px 2px red; */
+
+  /* text-shadow: 0 0 3px red, 0 0 5px blue; */
+
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+/* Font Family */
+
+#text6 {
+  /* font-family */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  /* font-style */
+  font-style: italic;
+  font-style: oblique;
+
+  /* font-weight */
+  /* font-weight:bold; */
+  /* font-weight: lighter; */
+  font-weight: 900;
+
+  /* Font Varient */
+  font-variant: small-caps;
+}
+
+/* font-size */
+/* rem */
+/* html{
+    
+    font-size:1.5em;
+ } */
+
+#text7 {
+  color: black;
+
+  /* absolute size */
+  /* font-size:20px; */
+  /* font-size:1cm; */
+  /* font-size:10pt; */
+
+  /* relative size */
+  /* font-size:50%; */
+  /* font-size:2em; */
+  font-size: 2rem;
+}
+
+/* font shorthand */
+
+#text8 {
+  /* font style font-varient font-weight font-size/line-height font-family */
+  font:italic small-caps 700 12px/30px "Times New Roman",serif;
+}
+
+
+
+/* ------------------- Next in style2.css---------------------- */
+/* --------------------------------------------------------------------- */

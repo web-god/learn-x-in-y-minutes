@@ -1,0 +1,20 @@
+/* 27.Combinators */
+/* Descendant Selector */
+#descendant div p{
+    background-color:lightpink;
+}
+
+/* child selector */
+
+#childselector div>p {
+    background-color: lightpink;
+}
+
+#adjacentSibling div+p {
+    background-color: lightpink;
+}
+
+ /* General Sibling Selector (~) */
+#generalSibling div~p{
+    background-color: lightpink;
+}

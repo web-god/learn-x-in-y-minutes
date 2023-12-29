@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinators</title>
+    <link rel="stylesheet" href="combinators.css" />
+  </head>
+  <body>
+    <!-- 27.Combinators -->
+
+    <!-- Descendant Selector -->
+    <h1>Descendant Selector</h1>
+    <div id="descendant">
+      <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <section><p>Paragraph 3 in the div.</p></section>
+      </div>
+
+      <p>Paragraph 4. Not in a div.</p>
+      <p>Paragraph 5. Not in a div.</p>
+    </div>
+
+    <hr />
+
+    <!-- Child Selector (>) -->
+    <h1>Child Selector (>)</h1>
+    <div id="childselector">
+      <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <section><p>Paragraph 3 in the div.</p></section>
+      </div>
+
+      <p>Paragraph 4. Not in a div.</p>
+      <p>Paragraph 5. Not in a div.</p>
+    </div>
+
+    <hr>
+
+    <!-- Adjacent Sibling Selector (+)   -->
+    <h1>Adjacent Sibling Selector (+)</h1>
+    <div id="adjacentSibling">
+      <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <section><p>Paragraph 3 in the div.</p></section>
+      </div>
+
+      <p>Paragraph 4. Not in a div.</p>
+      <p>Paragraph 5. Not in a div.</p>
+    </div>
+
+    <hr>
+
+    <!-- General Sibling Selector (~) -->
+    <h1>General Sibling Selector (~)</h1>
+    <div id="generalSibling">
+        <div>
+          <p>Paragraph 1 in the div.</p>
+          <p>Paragraph 2 in the div.</p>
+          <section><p>Paragraph 3 in the div.</p></section>
+        </div>
+  
+        <p>Paragraph 4. Not in a div.</p>
+        <p>Paragraph 5. Not in a div.</p>
+      </div>
+
+  </body>
+</html>
