@@ -255,12 +255,37 @@ To begin learning CSS, navigate to the relevant section and follow the examples 
       - ::placeholder
 30. **Opacity**
 31. **Cursor**
+      - pointer
+      - text
+      - help
+      - wait
+      - crosshair
+      - grab
 32. **!important**
 33. **Shadows**
+      - text-shadow
+      - box-shadow
 34. **filter**
+      - blur
+      - brigtness
+      - contrast
+      - drop-shadow
+      - grayscale
+      - invert
+      - opacity
+      - saturate
+      - sepia
+      - hue-rotate
 35. **Image Sprites**
 36. **Gradients**
+      - Linear Gradient
+      - Radial Gradient
+      - Conic Gradient
 37. **Resizable**
+      - none
+      - horizontal
+      - vertical
+      - both
 38. **Functions**
 39. **Box Sizing**
 40. **object-fit**

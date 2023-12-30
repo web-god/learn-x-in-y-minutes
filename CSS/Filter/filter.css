@@ -1,0 +1,46 @@
+/* 34.filter */
+
+#filter2 {
+    filter: blur(5px);
+}
+
+#filter3 {
+    /* filter: brightness(200%); */
+    filter:brightness(30%)
+}
+
+#filter4 {
+    filter:contrast(200%)
+}
+
+#filter5 {
+    filter:drop-shadow(20px 20px 5px  black)
+}
+
+#filter6 {
+    filter:grayscale(100%);
+}
+
+#filter7 {
+    filter:invert(100%);
+}
+
+#filter8 {
+    filter:opacity(50%);
+}
+
+#filter9 {
+    filter:saturate(200%);
+}
+
+#filter10 {
+    filter:sepia(100%);
+}
+
+#filter11 {
+    filter:hue-rotate(280deg);
+}
+
+#filter12 {
+    filter:hue-rotate(280deg) blur(10px);
+}

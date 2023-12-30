@@ -1,0 +1,153 @@
+body {
+    height:4000px;
+}
+
+/* 31.Cursor */
+#cur {
+  /* cursor: pointer; */
+  /* cursor:copy; */
+  /* cursor:crosshair; */
+  cursor: text;
+}
+
+/* 32.!important */
+
+#imp {
+  color: green;
+}
+
+h3 {
+  color: red !important;
+}
+
+/* 33.Shadows */
+/* box-shadow */
+
+#boxShadow {
+  border: 2px solid black;
+  background-color: teal;
+  width: 400px;
+  height: 200px;
+  /* horizontal vertcial blur spread color  */
+  box-shadow: 20px 20px 5px 10px black, 30px 30px 5px 10px green;
+}
+
+/* 35.Image Sprites */
+
+.sprite {
+  background-image: url("sprite.png");
+  background-repeat: no-repeat;
+}
+
+#sprite1 {
+  height: 500px;
+}
+
+#sprite2 {
+  height: 143px;
+}
+
+#sprite3 {
+  height: 143px;
+  background-position: 0 -143px;
+}
+
+#sprite4 {
+  height: 143px;
+  background-position: 0 -286px;
+}
+
+/* 36.Gradients */
+/* Linear Gradients */
+
+#linear-g {
+  height: 200px;
+  /* For browsers that do not support gradients */
+  /* background-color:red; */
+  background-image: linear-gradient(red, yellow);
+
+  background-image: linear-gradient(to right, red, yellow);
+
+  background-image: linear-gradient(to bottom, red, yellow);
+
+  background-image: linear-gradient(180deg, red, yellow);
+
+  background-image: linear-gradient(90deg, red, yellow);
+
+  background-image: linear-gradient(to right, red, yellow, green);
+
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+
+  /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+
+  /* repeating-linear-gradient */
+  /* background-image:repeating-linear-gradient(red,yellow 10%,green 20%) */
+}
+
+/* Radial Gradients */
+
+#radial-g {
+  height: 800px;
+  background-image: radial-gradient(red, yellow, green);
+
+  background-image: radial-gradient(red 5%, yellow 10%, green 70%);
+
+  background-image: radial-gradient(circle, red, yellow, green);
+
+  /* background-image: repeating-radial-gradient(red,yellow 10%,green 15%); */
+}
+
+/* Conic Gradients */
+
+#conic-g {
+  height: 300px;
+  background-image: conic-gradient(red, yellow, green);
+
+  background-image: conic-gradient(red, yellow, green, blue, black);
+
+  background-image: conic-gradient(
+    red 0deg,
+    red 90deg,
+    yellow 90deg,
+    yellow 180deg,
+    green 180deg,
+    green 270deg,
+    blue 270deg
+  );
+
+  background-image: conic-gradient(from 90deg, red, yellow, green);
+
+  /* repeating-conic-gradient() */
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+
+  background-image: repeating-conic-gradient(
+    red 0deg 10deg,
+    yellow 10deg 20deg,
+    blue 20deg 30deg
+  );
+}
+
+/* 37.Resizable */
+#resizable {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  /* resize: horizontal; */
+  /* resize: vertical; */
+  resize: both;
+  overflow: auto;
+}
+
+#textarea1 {
+    resize: none;
+}
