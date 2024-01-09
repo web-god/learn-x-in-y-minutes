@@ -433,7 +433,6 @@ To begin learning CSS, navigate to the relevant section and follow the examples 
             - center
             - space-around
             - space-between
-            
           - align-items
             - flex-start
             - flex-end
