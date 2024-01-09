@@ -1,0 +1,64 @@
+/* 52.Flexbox */
+#flex-container {
+  width: 100%;
+  height: 400px;
+  border: 2px solid black;
+  background-color: rgb(247, 247, 137);
+
+  /* flex */
+  display: flex;
+  /* flex-direction: column  ; */
+  /* flex-wrap:wrap; */
+  flex-flow: row wrap;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  /* align-content: center; */
+}
+
+.flex-child {
+  background-color: orange;
+  border: 1px solid black;
+  width: 50px;
+  margin: 10px;
+  padding: 20px;
+}
+
+#flex-container .flex-child:nth-child(1) {
+  order: 2;
+  align-self: flex-end;
+}
+
+#flex-container .flex-child:nth-child(3) {
+  order: 2;
+  align-self: flex-start;
+}
+
+#flex-container .flex-child:nth-child(6) {
+  order: -1;
+}
+
+#flex-container .flex-child:nth-child(2) {
+  /* flex-grow:2; */
+  /* flex-basis:300px; */
+  flex: 0 0 300px;
+}
+
+/* .flex-child:nth-child(5) {
+    flex-shrink:2;
+} */
+
+/* part 2 -flex */
+
+#flex-container2 {
+  width: 50%;
+  height: 400px;
+  border: 2px solid black;
+  background-color: rgb(247, 247, 137);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+  /* row-gap:100px; */
+  /* column-gap:100px; */
+  gap:100px;
+}

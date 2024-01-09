@@ -1,0 +1,37 @@
+/* 43.Transforms3D */
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-left: 100px;
+}
+
+#translate3d {
+  transform: perspective(500px) translate3d(50px, 50px, 200px);
+}
+
+#rotate3d {
+  transform: perspective(500px) rotate3d(1, 1, 1, 45deg);
+}
+
+#rotatex {
+    transform: perspective(500px) rotateX(45deg);
+}
+
+#rotatex2 {
+    font-size: 30px;
+    transform: perspective(500px) rotateX(150deg);
+}
+
+#rotatey {
+    transform: perspective(500px) rotateY(45deg);
+}
+
+#rotatez {
+    transform: perspective(500px) rotateZ(45deg);
+}
+
+#scale3d {
+    transform: perspective(500px) scale3d(1,1,2)
+}

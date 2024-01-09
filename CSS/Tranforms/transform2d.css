@@ -1,0 +1,49 @@
+/* 42.Transforms2D */
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-left: 100px;
+}
+
+#translate {
+  transform: translate(200px, 0px);
+}
+
+#rotate {
+  transform: rotate(30deg);
+  /* transform: rotate(-30deg); */
+}
+
+#scale {
+  transform: scale(0.5, 0.5);
+  /* transform: scale(2,0.5); */
+  /* transform: scale(2,2); */
+}
+
+#scalex {
+  transform: scaleX(2);
+}
+
+#scaley {
+  margin-top: 100px;
+  transform: scaleY(2);
+}
+
+#skew {
+  transform: skew(20deg,30deg);
+}
+
+#skewx {
+  transform: skewX(45deg);
+}
+
+#skewy {
+  transform: skewY(30deg);
+}
+
+
+#matrix {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}

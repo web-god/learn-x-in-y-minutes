@@ -151,3 +151,89 @@ h3 {
 #textarea1 {
     resize: none;
 }
+
+/* 38.Functions */
+/* attr() */
+a::after {
+  /* content:attr(href); */
+  content:" ("attr(href)")";
+
+}
+
+/* calc()*/
+#calc {
+  width:calc(100% - 200px);
+  height:200px;
+  background-color: darksalmon;
+}
+
+/* max() & min() */
+#maxmin {
+  width:max(300px,50%);
+  /* width:min(300px,50%); */
+  height:200px;
+  background-color:violet;
+}
+
+/* 39.Variables */
+
+:root {
+  --main-color:red;
+}
+
+#variable {
+  width:200px;
+  height:200px;
+  background-color:var(--main-color);
+}
+
+/* 40.Box Sizing  */
+#boxS1{
+  width:400px;
+  height:300px;
+  border:2px solid red;
+  padding:50px;
+  box-sizing: content-box; /*default*/
+  
+}
+
+#boxS2{
+  width:400px;
+  height:300px;
+  padding:50px;
+  border:2px solid green;
+  box-sizing:border-box;
+}
+
+/* 41.object-fit */
+
+#objectFit1 {
+  width:200px;
+  height:500px;
+}
+#objectFit2 {
+  width: 200px;
+  height:500px;
+  object-fit: contain;
+}
+
+#objectFit3 {
+  width: 200px;
+  height:500px;
+  object-fit: cover;
+  /* object-position:5px 10%; */
+}
+
+#objectFit4 {
+  width: 200px;
+  height:500px;
+  object-fit: fill; /*default*/
+}
+#objectFit5 {
+  width: 300px;
+  height:500px;
+  object-fit: scale-down;
+}
+
+/* ------------------- Next in style3.css---------------------- */
+/* --------------------------------------------------------------------- */

@@ -1,0 +1,88 @@
+/* 45.Animations */
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+@keyframes color {
+  from {
+    background-color: green;
+  }
+
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes color2 {
+  0% {
+    background-color: green;
+  }
+
+  20% {
+    background-color: blue;
+  }
+
+  40% {
+    background-color: orange;
+  }
+
+  60% {
+    background-color: pink;
+  }
+
+  80% {
+    background-color: yellow;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes example1 {
+  0% {
+    background-color: green;
+    left: 0px;
+    top: 0px;
+  }
+
+  20% {
+    background-color: blue;
+    left: 100px;
+    top: 0px;
+  }
+
+  40% {
+    background-color: orange;
+    left: 100px;
+    top: 100px;
+  }
+
+  60% {
+    background-color: pink;
+    left: 100px;
+    top: 0px;
+  }
+
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+#animate {
+  position: relative;
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-delay:2s;
+  /* animation-delay:-2s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: reverse; */
+  animation-timing-function:ease-in-out;
+  /* animation-fill-mode: forwards; */
+
+  /* animation: example1 5s ease-in-out 2s infinite reverse; */
+}

@@ -287,20 +287,214 @@ To begin learning CSS, navigate to the relevant section and follow the examples 
       - vertical
       - both
 38. **Functions**
-39. **Box Sizing**
-40. **object-fit**
-41. **Transforms**
-42. **Transitions**
-43. **Animations**
-44. **Print Style**
-45. **Responsive Web Design**
-46. **Viewport Meta Tag**
-47. **Media Queries**
-48. **Specificity**
-49. **Multiple Columns**
-50. **Flexbox**
-51. **Grid**
-52. **Validations**
+      - url()
+      - attr()
+      - Math Fn
+        - calc()
+        - max()
+        - min()
+      - Color Fn
+        - rgb()
+        - rgba()
+        - hsl()
+        - hsla()
+      - Pseudo Class Fn
+        - :nth-child(n)
+        - :nth-last-child(n)
+        - :not()
+      - Animation Fn
+      - filter Fn
+      - Transform Fn
+      - Gradient Fn
+      - var()
+39. **Variables**
+      - local variable
+      - global Variable
+        - :root
+      - var()
+40. **Box Sizing**
+      - content-box
+      - border-box
+41. **object-fit**
+      - object-fit
+        - cover
+        - contain
+        - fill
+        - none
+        - scale-down
+      - object-position
+42. **Transforms(2D)**
+      - translate()
+      - rotate()
+      - scale()
+        - scaleX()
+        - scaleY()
+      - skew()
+        - skewX()
+        - skewY()
+      - matrix()
+43. **Transforms(3D)**
+      - perspective(n)
+      - translateX(x)
+      - translateY(y)
+      - translateZ(z)
+      - scale3d(x,y,z)
+      - scaleX(x)
+      - scaleY(y)
+      - scaleZ(z)
+      - rotate3d(x,y,z,angle)
+      - rotateX(angle)
+      - rotateY(angle)
+      - rotateZ(angle)
+      - matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
+44. **Transitions**
+      - transition
+      - transition-delay
+      - transition-duration
+      - transition-property
+      - transition-timing-function
+        - ease 
+        - linear
+        - ease-in
+        - ease-out
+        - ease-in-out
+        - cubic-bezier(n,n,n,n)
+45. **Animations**
+      - @keyframes
+      - animation-name
+      - animation-duration
+      - animation-delay
+      - animation-iteration-count
+        - infinite
+      - animation-direction
+        - normal
+        - reverse
+        - alternate
+        - alternate-reverse
+      - animation-timing-function
+        - ease
+        - linear
+        - ease-in
+        - ease-out
+        - ease-in-out
+        - cubic-bezier(n,n,n,n)
+      - animation-fill-mode
+        - none
+        - forwards
+        - backwards
+        - both
+      - animation shorthand
+46. **Print Style**
+47. **Responsive Web Design**
+48. **Viewport Meta Tag**
+49. **Media Queries**
+      - media (HTML)
+      - @media  
+      - media type
+        - all
+        - screen
+        - print
+        - speech
+      - media features
+        - width
+        - height
+        - max-width/min-width
+        - max-height/min-height
+        - orientation
+        - media queries Level 4 
+50. **Specificity**
+51. **Multiple Columns** 
+      - column-count
+      - column-gap
+      - column-rule-style
+      - column-rule-width
+      - column-rule-color
+      - column-rule
+      - column-span
+      - column-width
+      - column-fill
+52. **Flexbox**
+      - Flex Container
+        - display:flex
+        - flex-direction
+          - row
+          - column
+          - column-reverse
+          - row-reverse
+          - flex-wrap
+            - wrap
+            - nowrap
+            - wrap-reverse
+          - flex-flow
+          - justify-content
+            - flex-start
+            - flex-end
+            - center
+            - space-around
+            - space-between
+            
+          - align-items
+            - flex-start
+            - flex-end
+            - center
+            - stretch
+            - baseline
+          - align-content
+            - flex-start
+            - flex-end
+            - center
+            - stretch
+            - space-between
+            - space-around
+            - space-evenly
+          - gap
+            - row-gap
+            - column-gap
+            - gap
+      - Flex Items
+        - order
+        - flex
+          - flex-grow
+          - flex-shrink
+          - flex-basis
+        - align-items
+53. **Grid**
+      - Grid Columns
+      - Grid Rows
+      - Grid Gaps 
+        - ~~row-gap~~ :x:
+        - ~~column-gap~~ :x:
+        - gap
+      - Grid Lines
+      - Grid Container
+        - display:grid
+        - grid-template-columns 
+        - grid-template-rows
+        - justify-content
+          - start
+          - end
+          - center
+          - space-between
+          - space-around
+          - space-evenly
+        - align-content
+          - start
+          - end
+          - center
+          - space-between
+          - space-around
+          - space-evenly 
+      - Grid Items
+        - grid-column
+          - grid-column-start
+          - grid-column-end
+        - grid-row
+          - grid-row-start
+          - grid-row-end
+        - grid-area
+        - grid-area(with name)
+        - order of the items 
+54. **Validations**
 
 
 ---
