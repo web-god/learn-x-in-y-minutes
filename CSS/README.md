@@ -385,6 +385,7 @@ To begin learning CSS, navigate to the relevant section and follow the examples 
         - both
       - animation shorthand
 46. **Print Style**
+      - @media print
 47. **Responsive Web Design**
 48. **Viewport Meta Tag**
 49. **Media Queries**
