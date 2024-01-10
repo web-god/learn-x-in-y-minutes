@@ -12,7 +12,7 @@ This guide is ideal for beginners and those looking for a quick refresher on dev
 - [HTML (Hypertext Markup Language)](html.md)
 - [HTML 5](html5.md)
 - [CSS (Cascading Style Sheets)](css.md)
-- [JavaScript](javascript.md)
+- [JavaScript](js.md)
 
 ## Getting Started
 
