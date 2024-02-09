@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tricks</title>
+    <style>
+      nav {
+        background-color: black;
+      }
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        height: 100px;
+        align-items: center;
+        
+      }
+
+      ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 0 20px;
+        display:inline-block;
+    
+      }
+
+      ul li a::after {
+        content:'';
+        display:block;
+        height:4px;
+        width:0;
+        background-color:#c4c4ff;
+        transition: all .5s;
+      }
+
+      ul li a:hover::after{
+        width:100%;
+      }
+    </style>
+</head>
+<body>
+    <!-- 1.How to create a hover effect in nav -->
+    <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+
+
+</body>
+</html>
