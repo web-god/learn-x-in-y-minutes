@@ -649,13 +649,13 @@ line */
 // console.log(userBooks);
 
 //@ Chaining
-const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const newNumbers = myNumbers
-  .map((num) => num * 10)
-  .map((num) => num + 1)
-  .filter((num) => num > 71);
-console.log(newNumbers);
+// const newNumbers = myNumbers
+//   .map((num) => num * 10)
+//   .map((num) => num + 1)
+//   .filter((num) => num > 71);
+// console.log(newNumbers);
 
 //@ reduce
 
@@ -693,7 +693,6 @@ console.log(newNumbers);
 
 // const priceToPay = shoppingCart.reduce((acc,item)=> acc+item.price,0);
 // console.log(priceToPay); //22996
-
 
 //@ reduceRight
 
@@ -1128,7 +1127,7 @@ console.log(newNumbers);
 // console.log(carriedSum(2)(3)(5));
 // -------------------------------------------------------
 //* 53.Immediately Invoked Function Expressions IIFE
-//# to remove pollution of global scope 
+//# to remove pollution of global scope
 //@ named IIFE
 // (function func() {
 //   console.log("DB connected"); //'DB connected'
@@ -1142,3 +1141,41 @@ console.log(newNumbers);
 // ((name)=>{
 //   console.log(`DB connected by ${name}`); //'DB connected by WebGod'
 // })('WebGod');
+// -------------------------------------------------------
+//* 56. Async JS
+
+//@ setTimeOut
+
+// setTimeout(function () {
+//   console.log("hello");
+// },5000);
+
+const sayHello = () => {
+  console.log("Hello");
+};
+
+setTimeout(sayHello, 5000);
+
+//@ Example of setTimeOut and clearTimeOut
+
+//? setTimeOut
+// let setT = document.getElementById("setT");
+
+// let changeText = () => {
+//   setT.innerHTML = "Hello This is Changed";
+// };
+
+// let start = document.getElementById("start");
+// let stop = document.getElementById("stop");
+
+// let startEvent = () => {
+//   setTimeout(changeText, 5000);
+// };
+
+//? clearTimeOut
+// start.addEventListener("click", startEvent);
+
+// stop.addEventListener("click", () => {
+//   clearTimeout(startEvent);
+// });
+

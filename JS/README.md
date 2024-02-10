@@ -302,15 +302,24 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
       - Execution Phase
         - New variable Environment
         - Execution Thread
-55. **Classes**
-56. **Modules**
-57. **Debugging** 
-58. **DOM**
+55. ** Async JS** 
+      - Register Callback
+      - Event Loop
+      - Task Queue
+      - setTimeOut
+      - clearTimeOut
+56. **Classes**
+57. **Modules**
+58. **Debugging** 
+59. **DOM**
     - Introduction
-59. **Async Javascript**
+60. **Async Javascript**
 
 ---
 ## Terms in Javascript
 
 1. **Implicit**
 2. **Explicit**
+
+http
+https
