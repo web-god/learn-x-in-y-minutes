@@ -1,7 +1,7 @@
 // * Topic
 // @ Sub topic
 // ? sub sub topic
-// & sub sub sub topic
+// & sub sub sub topicxx
 // -- horizontal line
 // ! error
 // # information
@@ -11,7 +11,7 @@
 // let txt=document.getElementById("text1");
 // txt.innerHTML="This is an innerHTML";
 
-// alert("This is a alert");
+// alert("This is a alert"); 
 
 // console.log("This is a console");
 // -----------------------------------------
@@ -79,12 +79,12 @@ line */
 // var a;
 
 // b=2;
-// console.log(b); // cannot access b before initialization //Refernce Error
+// console.log(b); // cannot access b before initialization //!Refernce Error
 // let b;
 
 // c=2;
 // console.log(c); //!Reference Error
-// let c;
+// const c;
 
 //? iv)Reassigned
 // var a=2;
@@ -97,7 +97,7 @@ line */
 
 // const c=2;
 // c=3;
-// console.log(c); //Error
+// console.log(c); //!Error
 
 //? v) Must be assigned
 
@@ -186,7 +186,6 @@ line */
 // console.log(person);
 
 //@ Object Methods
-// x
 
 // console.log(person.fullName());
 
@@ -206,7 +205,7 @@ line */
 //# object literal- non singleton
 // const obj1={}
 
-//# object constrcutor - singleton
+//# object constructor - singleton
 // Object.create
 
 // const obj1=new Object();
@@ -287,7 +286,7 @@ line */
 
 // navbar(company="webgod")
 
-//@ Symbol
+// @ Symbol
 
 // const mySym = Symbol("key1");
 // console.log(mySym);
@@ -355,7 +354,7 @@ line */
 
 //  obj1 = {
 //      name: "webgod",
-//      ag:25
+//      age:25
 //  }
 
 //  myFunc.call(obj1,"js",10);
@@ -755,7 +754,7 @@ line */
 //     console.log(i[0]);
 //     console.log(i[1]);
 //       //0,1,2,3
-// }
+// } 
 
 //^ @with() 2023 updated
 
@@ -908,18 +907,18 @@ line */
 // --------------------------------------------------------
 //* 39.Maps
 
-// const map = new Map();
-// map.set("IN", "India");
-// map.set("USA", "United State of America");
-// map.set("Fr", "France");
-// map.set("IN", "India");
+const map = new Map();
+map.set("IN", "India");
+map.set("USA", "United State of America");
+map.set("Fr", "France");
+map.set("IN", "India");
 
-// // console.log(map);
+console.log(map);
 
-// for (let [key, value] of map) {
-//   console.log(key);
-//   console.log(value);
-// }
+for (let [key, value] of map) {
+  console.log(key);
+  console.log(value);                                                                           
+}
 // ------------------------------------------------------------
 //* 45.Errors
 //@ try and catch
@@ -1150,11 +1149,11 @@ line */
 //   console.log("hello");
 // },5000);
 
-const sayHello = () => {
-  console.log("Hello");
-};
+// const sayHello = () => {
+//   console.log("Hello");
+// };
 
-setTimeout(sayHello, 5000);
+// setTimeout(sayHello, 5000);
 
 //@ Example of setTimeOut and clearTimeOut
 
@@ -1178,4 +1177,35 @@ setTimeout(sayHello, 5000);
 // stop.addEventListener("click", () => {
 //   clearTimeout(startEvent);
 // });
+
+//@ setInterval
+// const sayHello = function(str) {
+//   console.log(str);
+// }
+// setInterval(sayHello,5000,"Hello World")
+
+//? setInterval
+
+// let start2 = document.getElementById("start2");
+// let stop2 = document.getElementById("stop2");
+// let setI;
+
+// let startEvent = () => {
+//   setI = setInterval(sayHello, 1000, "Hello World");
+// };
+
+// let sayHello = (str) => {
+//   console.log(str);
+// };
+
+// start2.addEventListener("click", startEvent);
+
+//? clearInterval
+// stop2.addEventListener("click", () => {
+//     clearInterval(setI);
+//   })
+
+//* this is @that has been the end of the learner
+
+//? this is a support is that has been the last of the j  
 

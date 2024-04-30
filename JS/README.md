@@ -10,7 +10,8 @@ Welcome to the "Learn JavaScript in Y Minutes" guide! This quick and comprehensi
 To begin learning JavaScript, navigate to the relevant section and follow the examples and explanations provided. Code snippets are included to help reinforce your understanding.
 
 ---
-## Topic: JavaScript
+
+## Topic:JavaScript
 
 1. **Introduction**
 2. **Where to**
@@ -37,7 +38,7 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
     - Expressions
     - Comments
     - Case Sensitive
-    - Case 
+    - Case
       - camel case
       - snake case
     - Character Set
@@ -103,6 +104,11 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
     - Object Destructuring
     - API
     - JSON
+    - 4 Pillars
+      - Absraction
+      - Encapsulation
+      - Inheritance
+      - Polymorphism
   
 13. **this**
     - default
@@ -129,7 +135,7 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
     - template strings
     - Escape Characters
     - JavaScript Strings as Objects
-    - == vs === 
+    - == vs ===
 16. **String Methods**
     - String Length
       - length
@@ -152,12 +158,12 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
       - trimStart()
       - trimEnd()
     - String repeat
-      -  repeat()
+      - repeat()
     - Replacing String Content
-      - replace() 
-      - replaceAll() 
+      - replace()
+      - replaceAll()
     - Converting a String to an Array
-      -  split()
+      - split()
 17. **String Search**
     - indexOf()
     - lastIndexOf()
@@ -192,14 +198,14 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
     - Changing an Array Element
       - [ ]
     - Converting an Array to a String
-      -  toString()
+      - toString()
     - Access the Full Array
     - Arrays are Objects
     - Associative Arrays
     - Array vs Object
     - Recognize an Array
       - Array.isArray()
-      - instanceof 
+      - instanceof
 23. **Array Methods**
     - length
     - toString()
@@ -222,8 +228,8 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
     - includes()
     - find()
     - findIndex()
-    - findLast() 
-    - findLastIndex() 
+    - findLast()
+    - findLastIndex()
 25. **Sorting Arrays**
     - sort()
     - reverse()
@@ -302,7 +308,7 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
       - Execution Phase
         - New variable Environment
         - Execution Thread
-55. ** Async JS** 
+55. **Async JS**
       - Register Callback
       - Event Loop
       - Task Queue
@@ -310,12 +316,24 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
       - clearTimeOut
 56. **Classes**
 57. **Modules**
-58. **Debugging** 
+58. **Debugging**
 59. **DOM**
     - Introduction
 60. **Async Javascript**
+61. **API**
+    - XML http concept(Ajax)
+    - Conversation to JSON Data
+62. **Promise**
+    - resolve
+    - reject
+    - .then()
+    - .catch()
+    - .finally()
+    - async()
+    - await
 
 ---
+
 ## Terms in Javascript
 
 1. **Implicit**
@@ -323,3 +341,4 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
 
 http
 https
+
