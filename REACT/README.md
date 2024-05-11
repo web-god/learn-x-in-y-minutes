@@ -79,7 +79,7 @@ To begin learning React, navigate to the relevant section and follow the example
      - setCounter
 5. **Virtual DOM**
     - createRoot
-  
+
 ---
 
 ## Terms in React
