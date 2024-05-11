@@ -1205,7 +1205,5 @@ for (let [key, value] of map) {
 //     clearInterval(setI);
 //   })
 
-//* this is @that has been the end of the learner
 
-//? this is a support is that has been the last of the j  
 

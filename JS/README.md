@@ -88,6 +88,7 @@ To begin learning JavaScript, navigate to the relevant section and follow the ex
     - REST Operator
 12. **Objects**
     - Definition
+    - Object Literals
     - properties
     - Property Attributes
     - methods
