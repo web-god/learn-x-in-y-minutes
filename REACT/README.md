@@ -79,7 +79,16 @@ To begin learning React, navigate to the relevant section and follow the example
      - setCounter
 5. **Virtual DOM**
     - createRoot
-
+6. **React Fibre**
+    - hydration
+7. **Reconciliation**
+    - diff tree algorithm
+8. **Tailwind**
+    - npm install -D tailwindcss postcss autoprefixer
+    - npx tailwindcss init -p  
+9. **Components**
+10. **Props**
+  
 ---
 
 ## Terms in React
