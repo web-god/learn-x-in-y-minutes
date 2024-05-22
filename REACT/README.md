@@ -63,6 +63,7 @@ To begin learning React, navigate to the relevant section and follow the example
    - vite
    - npm create vite@latest
    - npm install
+   - npm i
    - npm run dev
    - src folder
    - public folder
@@ -88,7 +89,9 @@ To begin learning React, navigate to the relevant section and follow the example
     - npx tailwindcss init -p  
 9. **Components**
 10. **Props**
-  
+11. **Counter Problem**
+12. **Project - Bg Changer**
+
 ---
 
 ## Terms in React
