@@ -87,7 +87,7 @@ To begin learning Computer, navigate to the relevant section and follow the exam
     - Power Connectors
     - BIOS/UEFI
 10. **GPU**  
-11. **PSU** 
+11. **PSU**
 12. **Software**
     - System
       - OS
@@ -103,7 +103,108 @@ To begin learning Computer, navigate to the relevant section and follow the exam
     - Application
     - Utility
     - Open Source
-
+13. **Flash Memory**
+    - NAND Flash Memory
+14. **NVMe**
+15. **CompactFlash Card**
+16. **Data Storage**
+    - primary
+      - RAM
+    - secondary
+      - HDD
+      - SSD
+      - Tertiary
+        - Magnetic Tape
+        - Optical Discs
+          - CD
+          - DVD
+          - Blu-ray
+      - USB Flash Drives
+      - Memory Cards
+        - SD
+        - CF
+        - Memory Stick
+      - Specialized Hard Drive
+        - NAS
+        - SAN
+        - Video Surveillance Storage
+        - Gaming Storage
+        - Ruggedized Hard Drives
+        - Data Recovery system
+        - Medical Imaging System
+        - DCC Storage
+        - Scientific Research Storage
+    - Cloud Storage
+17. **Memory**
+    - primary
+    - secondary
+    - cache
+18. **Internet**
+    - URL
+    - IP
+    - TCP
+    - DNS
+    - Intranet
+    - Architecture
+      - End Devices
+      - Network Infrastructure
+        - Routers
+        - Switches
+        - Cables
+        - Satellite
+      - Protocols
+        - IP
+          - Network Layer Protocol
+          - Addressing
+          - Routing
+          - IP4
+          - IP6
+          - Packet Structure
+            - header
+            - payload
+        - TCP
+          - Transport Layer Protocol
+          - HTTP/HTTPS
+          - SMTP
+          - FTP
+        - UDP
+    - Extranet
+19. **Website**
+    - Domain Name
+    - Web Pages
+    - Types
+      - Static
+        - basic
+        - portfolio
+        - brochure
+      - Dynamic
+        - CMS
+20. **Word Processor**
+21. **Spread Sheet**
+22. **Email**
+      - SMTP
+23. **Ports**
+    - Internal
+    - External
+    - VGA
+    - HDMI
+    - Ethernet
+24. **Number System**
+    - decimal
+    - binary
+    - octal
+    - hexadecimal
+25. **Data and Information**
+    - Data
+      - Structure
+        - SQL
+      - Unstructure
+        - NLP
+        - ML
+      - Big Data
+      - Metadata
+26. **Computer Networks**\
+    - 
 ---
 
 ## Contributing
