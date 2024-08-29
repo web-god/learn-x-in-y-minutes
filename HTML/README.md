@@ -7,6 +7,7 @@ Welcome to the "Learn HTML in Y Minutes" guide! This quick and comprehensive tut
 To begin learning HTML, navigate to the relevant section and follow the examples and explanations provided. Code snippets are included to help reinforce your understanding.
 
 ---
+
 ## Topic: HTML (Hypertext Markup Language)
 
 1. **Introduction**
@@ -17,7 +18,7 @@ To begin learning HTML, navigate to the relevant section and follow the examples
 6. **Headings(h1-h6)**
 7. **Paragraphs(p)**
 8. **Empty Tags**
-9. **Preformatted Text(Pre)** 
+9. **Preformatted Text(Pre)**
 10. **Styles**
 11. **Text Formatting**
 12. **Quotations**
@@ -45,7 +46,7 @@ To begin learning HTML, navigate to the relevant section and follow the examples
       - Picture Element
 17. **Favicon**
 18. **Title(Head Tag)**
-19. **Tables** 
+19. **Tables**
       - Tables
       - Colspan & Rowspan
       - Colgroup
@@ -171,13 +172,13 @@ To begin learning HTML, navigate to the relevant section and follow the examples
         - height & width
         - list
         - autocomplete
-      - Input Form Attributes 
+      - Input Form Attributes
         - form
         - formaction
         - formenctype
-        - formmethod 
+        - formmethod
         - formtarget
-        - formnovalidate 
+        - formnovalidate
 37. **Multimedia**
     - Video(Html 5)
     - Audio(Html 5)
@@ -189,7 +190,6 @@ To begin learning HTML, navigate to the relevant section and follow the examples
 
 ---
 
-
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
@@ -200,4 +200,4 @@ This guide is licensed under the MIT License. See the [LICENSE](LICENSE) file fo
 
 Happy coding!
 
-Web God 
+Web God

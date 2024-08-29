@@ -91,6 +91,11 @@ To begin learning React, navigate to the relevant section and follow the example
 10. **Props**
 11. **Counter Problem**
 12. **Project - Bg Changer**
+13. **Hooks**
+    - useEffect
+    - useCallback
+    - useRef
+14. **Project - Password Generator**
 
 ---
 
