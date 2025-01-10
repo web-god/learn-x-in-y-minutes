@@ -26,7 +26,7 @@ To begin learning HTML, navigate to the relevant section and follow the examples
       - abbr
       - address
       - cite
-      -  
+      - bdo
 13. **Comments**
 14. **Colors**
       - Colors
