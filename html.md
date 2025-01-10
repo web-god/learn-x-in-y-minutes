@@ -17,7 +17,7 @@ To begin learning HTML, navigate to the relevant section and follow the examples
 6. **Headings(h1-h6)**
 7. **Paragraphs(p)**
 8. **Empty Tags**
-9. **Preformatted Text(Pre)** 
+9. **Preformatted Text(Pre)**
 10. **Styles**
 11. **Text Formatting**
 12. **Quotations**
@@ -26,7 +26,7 @@ To begin learning HTML, navigate to the relevant section and follow the examples
       - abbr
       - address
       - cite
-      - bdo
+      -  
 13. **Comments**
 14. **Colors**
       - Colors
@@ -45,7 +45,7 @@ To begin learning HTML, navigate to the relevant section and follow the examples
       - Picture Element
 17. **Favicon**
 18. **Title(Head Tag)**
-19. **Tables** 
+19. **Tables**
       - Tables
       - Colspan & Rowspan
       - Colgroup
