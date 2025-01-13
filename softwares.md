@@ -14,16 +14,31 @@ Welcome to the "Learn Basic Software in Y Minutes" guide! This quick and compreh
 ### **2. Spreadsheet Software**
 
 - **Microsoft Excel**
-  - Basics
-  - Data Entry
-  - Formula and Function
-  - Conditional Formatting
-  - Insert Delete Row/Coulmn
-  - Merge & Center
-  - All Border
-  - Table
-  - Filter and Sort
-  - IF Formula
+  - **Basics**
+    - Introduction
+    - Data Entry
+    - Formula and Function
+    - Conditional Formatting
+    - Insert Delete Row/Coulmn
+    - Merge & Center
+    - All Border
+    - Table
+    - Filter and Sort
+    - IF Formula
+    - Charts
+    - Home Tab Options
+    - Freeze Row
+    - Number Group
+    - Print
+  - **Pivot**
+    - Basics
+    - Slicer
+    - Pivot Chart
+    - Options
+    - Timeline
+    - Clear Filter
+  - **Formulas**
+    - Frequency
 - Google Sheets
 
 ### **3. Presentation Software**
